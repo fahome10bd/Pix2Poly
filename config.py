@@ -11,7 +11,7 @@ class CFG:
     - whu_buildings_224_coco
     - mass_roads_224
     """
-    DATASET = f"inria_coco_224_negAug"
+    DATASET = f"whu_buildings_224_coco"
     if "coco" in DATASET:
         TRAIN_DATASET_DIR = f"./data/{DATASET}/train"
         VAL_DATASET_DIR = f"./data/{DATASET}/val"
